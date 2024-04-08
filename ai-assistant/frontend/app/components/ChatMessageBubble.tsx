@@ -40,7 +40,7 @@ const filterSources = (sources: Source[], content: string,) => {
   const filtered: Source[] = [];
   const urlMap = new Map<string, number>();
   const indexMap = new Map<number, number>();
-  if (content.includes("I am not able to answer this question") || content.includes("Hello") || content.includes("https://www.prepladder.com/courses/medical-pg/faqs")) {
+  if (content.includes("I am not able to answer this question") || content.includes("Hello")) {
     return { filtered, indexMap };
   }
   else {

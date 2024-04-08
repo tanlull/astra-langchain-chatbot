@@ -221,7 +221,7 @@ export function ChatWindow(props: { conversationId: string }) {
           mb={1}
           color={"white"}
         >
-           AI Assistant
+          Astra Langchain AI Assistant
         </Heading>
         {messages.length > 0 ? (
           <Heading fontSize="md" fontWeight={"normal"} mb={1} color={"white"}>
@@ -235,7 +235,7 @@ export function ChatWindow(props: { conversationId: string }) {
             marginTop={"10px"}
             textAlign={"center"}
           >
-            Welcome to AI Assistant. Ask me Academic questions
+            Welcome to Astra Langchain AI Assistant. Ask me any questions on your data
           </Heading>
         )}
         <div className="text-white flex flex-wrap items-center mt-4">
@@ -290,7 +290,7 @@ export function ChatWindow(props: { conversationId: string }) {
           value={input}
           maxRows={5}
           marginRight={"56px"}
-          placeholder="What are Red Blood Cells?"
+          placeholder="What is this document about?"
           textColor={"white"}
           borderColor={"rgb(58, 58, 61)"}
           onChange={(e) => setInput(e.target.value)}
@@ -322,7 +322,7 @@ export function ChatWindow(props: { conversationId: string }) {
       {messages.length === 0 ? (
         <footer className="flex justify-center absolute bottom-8">
           <a
-            href="https://github.com/krishnannarayanaswamy/chat-langchain-astra"
+            href="https://github.com/krishnannarayanaswamy/astra-langchain-chatbot"
             target="_blank"
             className="text-white flex items-center"
           >
