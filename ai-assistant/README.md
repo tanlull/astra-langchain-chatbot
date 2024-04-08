@@ -99,7 +99,7 @@ python3 --version
 python3 -m venv astra-langchain-aichat-api
 source astra-langchain-aichat-api/bin/activate
 
-git clone https://github.com/krishnannarayanaswamy/chat-langchain-astra
+git clone https://github.com/krishnannarayanaswamy/astra-langchain-chatbot.git
 cd astra-langchain-chatbot/
 
 cd ai-assistant/
