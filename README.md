@@ -1,3 +1,83 @@
+You are here because you are curious about simplifying your Gen AI journey. DataStax has the answer. DataStax is a real-time data company for building production Gen AI applications. Our vector search capability is the key to harnessing the potential of generative AI and Retrieval-Augmented Generation (RAG) for your Gen AI applications. Think of it as a mix of Astra DB, our fully managed data service with vector search capabilities, seamlessly integrated into the LangChain and Cassio app developer framework. This unique cocktail is loved by developers because it provides the means to rapidly master Gen AI and RAG, enabling the creation of powerful, contextually rich systems.
+
+You don’t need to be a Deep Learning Machine Learning Expert / Data Scientist to understand how to use LLM’s like OpenAI and Vector Database like AstraDB to make intelligent Experts, Assistants, and Platforms
+
+This Dev Jam will help your enterprise architects, developers and practitioners to quickly become familiar with RAGStack, LLMs and Vector Database. These sessions with a DataStax technical coach, self-paced and hands-on learning assignments. Bring in a Gen AI use case, your data and build a Gen AI agent using DataStax Astra platform.
+
+# RAGBot Astra
+
+Welcome to DataStax Gen AI Dev Jam. This Dev Jam will help you quickly become familiar with DataStax RAGStack, LLMs and Astra Vector Database. These hands-on jam normally runs with a DataStax technical coach, self-paced and hands-on learning assignments. Bring in a Gen AI use case, your data and build a Gen AI chatbot using DataStax Astra platform.
+This project is a starter for creating your production ready chatbot using Astra DB, Vercel, Next.js and OpenAI. It's designed to be easy to deploy and use, with a focus on performance and usability. Let's Go!
+
+## What you'll learn:
+
+- 🚀 How to use Astra DB Vector Store for Semantic Similarity search
+- 🤖 How to use OpenAI's Large Language Models for Q&A style chatbots
+- Vercel:  How to use Vercel to deploy the ChatBot
+
+## Features
+
+- **Astra DB Integration**: Store and retrieve data from your Astra DB database with ease.
+- **OpenAI Integration**: Leverage the power of OpenAI to generate intelligent responses.
+- **Easy Deployment**: Deploy your chatbot to Vercel with just a few clicks.
+- **Customizable**: Modify and extend the chatbot to suit your needs.
+
+## Getting Started
+
+### Prerequisites
+
+This workshop assumes you have access to:
+1. [A Github account](https://github.com)
+2. [Google Colab](https://colab.research.google.com/)
+
+Follow the below steps and provide the **Astra DB API Endpoint**, **Astra DB ApplicationToken** and **OpenAI API Key** when required.
+
+### Sign up for Astra DB
+
+Make sure you have a vector-capable Astra database (get one for free at [astra.datastax.com](https://astra.datastax.com/register))
+
+
+- Create a Astra Vector database as below
+
+
+![codespace](./ai-assistant/assets/images/createdb2.png)
+
+
+- Wait for the DB to initialized and be ready
+
+
+![codespace](./ai-assistant/assets/images/dbinitial.png)
+
+
+- Explore connectivity options using Java, Python and Typescript
+
+
+![codespace](./ai-assistant/assets/images/dbconnections.png)
+
+
+
+- Key information you will need shortly, explore them.
+- You will be asked to provide the **API Endpoint** which can be found in the right pane underneath *Database details*.
+- Ensure you have an **Application Token** for your database which can be created in the right pane underneath *Database details*.
+
+![codespace](./ai-assistant/assets/images/dbdetails.png)
+
+
+- You will need DB ID.
+
+
+![codespace](./ai-assistant/assets/images/dbdbid.png)
+
+
+### Sign up for OpenAI
+
+- Create an [OpenAI account](https://platform.openai.com/signup) or [sign in](https://platform.openai.com/login).
+- Navigate to the [API key page](https://platform.openai.com/account/api-keys) and create a new **Secret Key**, optionally naming the key.
+
+# Google Colab Data Load with LangChain
+
+
+
 # DataStax Astra Chat with LangChain
 
 This repo is an implementation of a locally hosted chatbot specifically focused on question answering 
