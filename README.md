@@ -122,11 +122,17 @@ export COHERE_API_KEY=""
 ```
 ## For Windows Users (For macos and linus users, please skip)
 
-Assumption: you have/use powershell 
+Assumption: you have/use powershell
+
 Install Python using this [guide](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+
 Install nodejs using this [guide](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
+
 Install Git and VSCode, if required
-For exporting environment variables, you will need to add the environment variables in the system settings as documented [here](https://www.computerhope.com/issues/ch000549.htm). Alternatively, if you have admin privileges, you can do so using powershell using commands [here](https://lazyadmin.nl/powershell/set-environment-variable/)
+
+For exporting environment variables, you will need to add the environment variables in the system settings as documented [here](https://www.computerhope.com/issues/ch000549.htm). 
+
+Alternatively, if you have admin privileges, you can do so using powershell using commands [here](https://lazyadmin.nl/powershell/set-environment-variable/)
 
 ## Ready for launch
 
