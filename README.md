@@ -76,6 +76,15 @@ Make sure you have a vector-capable Astra database (get one for free at [astra.d
 
 # Google Colab Data Load with LangChain
 
+We will use a Google Colab to do a simple RAG chatbot first to become familiar with the toolsets. We will create embeddings of the data from files (PDF, txt) and store them in Astra DB collections to enable Vector search.
+
+Open this [Colab notebook](https://colab.research.google.com/drive/1PXfEVMobBVPAs_5vqAw-USZK1b1opHSF) in a browser
+
+Make a copy of this in your own Google Drive (Otherwise you will be editing my copy of the notebook)
+
+Run each cell individually in sequence and observe the outputs
+
+Feel free to change the Astra collection name and also change Bring your own Data (BYOD)
 
 
 # DataStax Astra Chat with LangChain
