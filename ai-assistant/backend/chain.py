@@ -260,6 +260,7 @@ llm = ChatOpenAI(
         max_tokens=16384,
         fireworks_api_key=os.environ.get("FIREWORKS_API_KEY", "not_provided"),
     ),
+    
     google_gemini_pro=ChatGoogleGenerativeAI(
         model="gemini-pro",
         temperature=0,

@@ -1,1 +1,3 @@
-ASTRA_COLLECTION_NAME = "thailand_dev_jam"
+ASTRA_COLLECTION_NAME = "thailand_pdpa_law"
+
+
